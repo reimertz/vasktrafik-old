@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <title>Vasktrafik.se - Stället där de coola kidsen vaskar!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+
+   
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+
+
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+
+
+    }
+    .carousel .item {
+      height: 300px;
+
+    }
+
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 2500px;
+      background-color: black;
+      height: 300px;
+    }
+
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      
+      padding: 0 20px;
+      margin-top: 30px;
+      
+
+    }
+    .carousel-caption h1{
+      font-size: 50px;
+    }
+     .carousel-caption sup{
+      font-size: 25px; 
+      color: #c10000;
+     }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+
+    
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+ 
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 20px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+  .footer{
+        padding-left: 20%;
+      }
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+   
+
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+       
+      }
+
+        
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+          margin-left: -20px;
+          margin-right: -20px;
+
+      }
+      .carousel .container {
+        width: 95%;
+        min-width: 250px;
+        margin: 0 auto;
+      }
+      .carousel .item {
+        height: 300px;
+        wo
+
+      }
+      .carousel img {
+
+      }
+      .carousel-caption {
+        width: 100  %;
+        padding: 0 30px;
+        margin-top: 20px;        
+      }
+    .carousel-caption sup{
+      font-size: 14px;
+      vertical-align: middle; 
+     }
+
+      .carousel-caption h1 {
+        font-size: 35px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+ .footer{
+        padding-top: 20px;
+      }
+
+
+    }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/thumb_144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/thumb_114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/thumb_72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/thumb_144.png">
+    <link rel="shortcut icon" href="images/thumb_144.png">
+    <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+
+  <body>
+
+
+
+
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    
+    <div id="myCarousel" class="carousel slide ">
+      <div class="carousel-inner">
+        <div class="item">
+            <img src="images/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>It's Simple.</h1>
+              <br/>
+              <p class="lead">Du väljer den datatrafik du vill vaska.<br/>
+                Efter det genererar vi datatrafik på din dator/mobil/surfplatta. 
+              </p>
+              <br/>
+              <a class="lead btn btn-large btn-info" href="#myCarousel" data-slide="next">Okej, då vet jag!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item active text">
+          <img src="images/slide-02.jpg" alt="">
+          
+          <div class="container " >
+
+            <div class="carousel-caption">
+              
+              <h1>Vasktrafik.se<sup>BETA</sup></h1>
+              <br/>
+
+              <p class="lead">
+                Trött på att vaska pengar? <br/>Börja vaska dina MB istället!
+
+              </p>
+              
+              
+                <p>
+                  <a class="lead btn btn-large btn-success" href="#myCarousel" data-slide="next">Nu kör vi!</a>
+                  <a class="lead btn btn-large btn-info" href="#myCarousel" data-slide="prev">Hur fungerar det?</a>
+                </p>
+                <p>(Problem med FireFox just nu..)</p>
+            
+            </div>
+
+          </div>
+
+        </div>
+
+       
+        
+
+        <div class="item">
+          <img src="images/slide-03.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Hur mycket?</h1>
+                <p class="lead">Välj en datamängd</p>
+                  <p><a class="btn btn-large btn-block btn-success" id="10MB" href="#myCarousel" data-slide="next">Småstadsvask (10 Mb)</a></p>
+                  
+                  <p><a class="btn btn-large btn-block btn-warning" id="250MB" href="#myCarousel" data-slide="next">Avenynsvask (250 Mb)</a></p>
+                  
+                  <p><a class="btn btn-large btn-block btn-danger" id="500MB" href="#myCarousel" data-slide="next">Stureplansvask (500 Mb)</a></p>
+              
+              </div>
+              
+          </div>
+        </div>
+          <div class="item">
+          <img src="images/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Redo?</h1>
+              <br/>
+                
+                <br/>
+                <p><a class="btn btn-large btn-block btn-success"  id="startaVask" href="#myCarousel" data-slide="next">Kör!</a></p>
+                <br/>
+                <p><a class="btn btn-large btn-block btn-info" href="#myCarousel" data-slide="prev">Ändra datamängd</a></p>
+              </div>
+              
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="images/slide-02.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 id="vaskStyle" style="left:-50px !important;" class="text-center">Vaskar</h1>
+              <br/>
+                
+                <p class="text-center" id="progressStatusField">0 av 100 MB..</p>
+                <br/>
+                <div class="progress progress-danger progress-striped active">
+                  
+                  <div class="bar" id="progressBar" style="width: 0%; padding-top: 5px;"></div>
+                </div>
+                
+                <p>
+                  <a class="btn btn-large btn-block btn-danger" id="avbrytVask" href="#myCarousel" data-slide-to="2">Avbryt</a>
+                  <a class="btn btn-large btn-block btn-success" id="skams">Nej, jag skäms.</a>
+                </p>
+                <br>
+                <p class="text-right" id="mute">TYST</p>
+              </div>
+              
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/slide-03.jpg" alt="">
+          <div class="container">
+          </div>
+        </div>
+      
+              <div class="item">
+          <img src="images/slide-01.jpg" alt="">
+          <div class="container">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" >
+      <a id="info"></a>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span4">
+          
+          <h1 id="totalMB">0</h1> 
+          <h2>Vaskat</h2>
+          <h4 id="totalUsers">0</h4> 
+
+        </div>
+        <div class="span4">
+          
+          
+          <h1 id="wattHour"></h1>
+          <h2>Wattimmar</h2>
+          <p>Med detta skulle man kunna ladda en iPhone <strong id="wattIphone"></strong> gånger eller åka <strong id="wattCar"></strong> km med en elbil.
+          </p>
+          <p><strong>OBS:</strong> En MB motsvarar ca. 5.9 Wh, dock är detta ett "Worst-case scenario" där all utrustning, som servar och dylikt inte är optimerade för stromsnålt användande. Skulle man däremot använda sig utav <a href="http://en.wikipedia.org/wiki/Virtual_hosting_service" target="_blank">virtuella servar</a> skulle förbrukningen kunna pressas ner till endast 1.9Wh!</P>
+          <p>Källor: <a href="http://www.androidauthority.com/iphone-5-vs-galaxy-s3-how-much-does-cost-charge-them-118866/" target="_blank">1 </a>
+              <a href="http://www.katescomment.com/energy-of-downloads/" target="_blank">2</a>
+          </p>
+          
+        </div>
+        <div class="span4">
+
+          
+          <h1>Varför?</h1>
+          <h2>Upplysning</h2>
+          <p>Det började som ett internt skämt med en go göteborgare men jag insåg senare att det finns väldigt lite kunskap om datatrafikens miljöpåverkan.</p>
+           <p> Därför hoppas jag att denna sidan ska få dig att att inse att man faktiskt kan spara in på datatrafiken också! 
+            <p> Läs mer <a href="http://www.treehugger.com/gadgets/what-is-the-environmental-impact-of-the-internet.html" target="_blank">här </a>
+          
+        </div>
+      </div>
+</div>
+
+      
+
+    <audio id="sound0" preload="none">
+      <source src="sound/10.mp3" type="audio/mpeg">
+        <source src="sound/10.ogg" type="application/ogg">
+    </audio>
+    <audio id="sound1" preload="none">
+      <source src="sound/250.mp3" type="audio/mpeg">
+        <source src="sound/250.ogg" type="application/ogg">
+    </audio>
+      <audio id="sound2" preload="none">
+      <source src="sound/500.mp3" type="audio/mpeg">
+        <source src="sound/500.ogg" type="application/ogg">
+    </audio>
+      
+          
+
+      
+
+    
+<!-- FOOTER -->
+      <footer class="footer">
+        <p>Bugg? Kontakta gärna mig och påpeka den så ska jag försöka fixa det!</p>
+        <p> Låtarna är lånade ifrån <a href="http://www.youtube.com/watch?v=7hcXKjaR40c">Håkan Hellström</a>, <a href="http://www.youtube.com/watch?v=eJoMrFiETUc">Bröderna Djup</a> och <a href="http://www.youtube.com/watch?v=4tpeBCBtoZU">keosni391</a>. </p>
+        <p>© 2013 Piérre Reimertz · <a href="mailto:pierre@pierrereimertz.com" >Kontakta mig</a>  </p>
+
+      </footer>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          $(window).bind("resize", windowSizeListener);
+
+
+          function windowSizeListener( e ) {
+            var winHeight = $(window).height();
+            var winWidth = $(window).width();
+            if(finished){
+              if(winWidth > 767){
+                $('#skams').hide();
+              }
+              else{
+
+                $('#skams').show("fast");
+              }
+            }
+            //adjust elements css etc.....
+            //$("#someDiv").css('someProperty',someValue based on winHeight and winWidth);
+          } 
+
+
+
+          $('#myCarousel').carousel({interval: 0});
+          $('.marketing').hide();
+          $('#skams').hide();
+
+
+          var text = "Småstadsvaskar.."
+          var soundIsOn = false;
+          var muteSound = false;
+          var sound = 0;
+          var numOfMB = 10;
+          var numOfMBLeft = 10;
+          var imgURLSmall =  'http://www.sunet.se/images/18.5980f13b12211bd97fd80005271/Lågupplöst_Färg_Orginal.jpg' + '?';
+          var imgURLLarge =  'http://www.sunet.se/images/18.6d7c8917128274d3dd080005134/högupplöst__Färg_Orginal.jpg' + '?';
+          var fileSize = 0.05;
+          var procent = 100;
+
+          var finished = false;
+
+          function myMethod( )
+          {
+                $.getJSON('http://reimertz.csbnet.se:3001/', function(data){
+                  var totalData = data.totalNrOfMB;
+                  var totalUsers = data.totalUsers;
+
+                  if(totalData>1000){
+                    $("#totalMB").text(totalData/1000 + ' GB'); 
+                  }
+                  else{
+                   $("#totalMB").text(totalData + ' MB');  
+                  }
+                  
+                  $("#totalUsers").text('av ' + totalUsers + ' användare');
+                  $("#wattHour").text(((totalData*5.9)/1000).toFixed(2) + ' kWh');
+                  $("#wattIphone").text(((totalData*5.9)/9.5).toFixed(0));
+                  $("#wattCar").text(((totalData*5.9)/(300*1.6)).toFixed(1));
+                })
+          };
+
+          setInterval(myMethod, 5000);
+          myMethod();
+
+          
+          function musicHandler(){
+
+            if(soundIsOn == false && muteSound ==false){
+
+              $('#sound' + sound)[0].play();
+              $("#mute").text("MUTE");
+              soundIsOn = !soundIsOn;
+            }
+            else{
+              $("#mute").text("UNMUTE");
+              $('#sound' + sound)[0].pause();
+              soundIsOn = !soundIsOn; 
+            }
+          };
+
+            $("#skams").click(function() {
+              $('html, body').animate({
+                  scrollTop: $("#info").offset().top
+                }, 1000);
+            });
+           $("#mute").click(function() {
+              muteSound = !muteSound;
+             musicHandler();
+            });
+
+              $("#10MB").click(function() {
+                numOfMB = 10;
+                numOfMBLeft = 10;
+
+
+                sound = 0;
+               });
+               $("#250MB").click(function() {
+                numOfMB = 250;
+                numOfMBLeft = 250;
+                sound = 1;
+                text = "Avenynsvaskar.."
+               });
+               $("#500MB").click(function() {
+                numOfMB = 500;
+                numOfMBLeft = 500;
+                sound = 2;
+                text = "Stureplansvaskar.."
+               });
+              $("#startaVask").click(function() {
+                  finished = false;
+                  $("#mute").show();
+                  $('#skams').hide();
+                  musicHandler();
+
+                  $("#progressStatusField").text((numOfMB - numOfMBLeft).toFixed(2) + ' MB av ' +  numOfMB + ' MB Nerladdat..');
+                  $("#avbrytVask").attr('data-slide','next').removeClass("btn-success").addClass("btn-danger").text("Avbryt");
+                  $(".progress").show("veryslow");
+                  $("#vaskStyle").text(text);
+                  
+                  //initiate
+                  procent = 0;
+                  if(numOfMB>10){
+                     
+                    downloadImage(imgURLLarge);
+                    fileSize = 7;  
+                  }
+                  else{
+                   downloadImage(imgURLSmall);   
+                   fileSize = 0.05;  
+                  }
+              
+            });
+
+            $("#avbrytVask").click(function() {
+              
+              var numOfMB = 10;
+              var numOfMBLeft = 10;
+              procent = 100;
+              $("#progressBar").width(0 + '%');
+            });
+          
+
+          function downloadImage(imageURL){
+            if(procent != -1){
+            var imgURLWithRand =  imageURL +Math.random()*Math.random();
+              
+              var img = $("<image />").attr('src', imgURLWithRand).load(function() {
+              if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
+                alert('Fel vid hämtning utav data. Är du uppkopplad mot internet?');
+              } else {
+                  if(procent<100){
+                    numOfMBLeft = numOfMBLeft - fileSize;
+                  if(numOfMBLeft < 0){
+                    numOfMBLeft = 0;
+                  }
+                  procent = (1 - (numOfMBLeft / numOfMB))*100;
+
+                  $("#progressStatusField").text((numOfMB - numOfMBLeft).toFixed(2)+ ' MB av ' +  numOfMB + ' MB..');
+                  $("#progressBar").width(procent + '%').text(procent.toFixed(1) + '%');
+
+                  $("<img />").remove();;
+                  delete img;
+                  downloadImage(imageURL);
+
+
+
+                }
+                else{
+                  musicHandler();
+                 uploadResult(); 
+                 finished = true;
+                 $('.marketing').show("slow");
+                 windowSizeListener();
+                 $("#vaskStyle").text(numOfMB + "MB = " + numOfMB*5.9 + "Wh!");
+                 $("#progressStatusField").text("Det är ändå rätt mycket när allt kommer omkring!")
+                  $("#mute").hide();
+                 $(".progress").hide("veryslow");
+                 $("#avbrytVask").attr('data-slide','').attr('data-slide-to','2').text("En gång till!");
+                }
+              }
+            })
+          }}
+          function uploadResult(){
+            $.ajax({
+                    type: "POST",
+                    url: "http://reimertz.csbnet.se:3001/post/",
+                    // The key needs to match your method's input parameter (case-sensitive).
+                    data: { mb : numOfMB },
+                    dataType: "json",
+                    success: function(data){alert(data);},
+                    failure: function(errMsg) {
+                    alert(errMsg);
+
+                  }
+                });
+          }
+
+
+
+
+          });
+      }(window.jQuery);
+    </script>
+    <script src="js/holder.js"></script>
+  
+
+</body></html>

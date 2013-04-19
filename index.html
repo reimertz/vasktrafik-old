@@ -1,0 +1,740 @@
+  <!DOCTYPE html>
+  <html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta charset="utf-8">
+  <title>Vasktrafik.se - Stället där de coola kidsen vaskar!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <!-- Le styles -->
+  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+      cursor:default;
+    }
+      .content {display:none;}
+    .preload { 
+
+      width:50%;
+      height: 50%;
+
+      padding-top: 25%;
+      margin: 0 auto;
+
+    }
+
+
+    .carousel {
+
+      margin-bottom: 20px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel .item {
+      height: 300px;
+
+    }
+
+    .carousel img {
+      position: absolute;
+       background-size: cover;
+       min-width: 170%;
+       min-height: 300px;
+        background-repeat: no-repeat;
+    }
+
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      
+      padding: 0 20px;
+      margin-top: 20px;
+    }
+    
+    .carousel-caption h1{
+      font-size: 50px;
+    }
+    .carousel-caption sup{
+      font-size: 25px; 
+      color: #c10000;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+
+    
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+    .marketing {
+      margin-top:85px;
+      margin-bottom: 175px;
+
+    }
+    .marketing .span4 {
+      text-align: center;
+
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .footer{
+      width:45%;
+      size:8px;
+      margin-top: 45px;
+      padding: 10px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+      }
+      .footer{
+        width:60%;
+      }
+      
+
+    
+
+    }
+    @media (max-width: 767px) {
+      .preload { 
+
+        width:80%;
+        height: 80%;
+
+        padding-top: 45%;
+        margin: 0 auto;
+      }
+
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+
+      }
+      .carousel .container {
+        width: 95%;
+        min-width: 250px;
+        margin: 0 auto;
+      }
+      .carousel .item {
+        height: 300px;
+        
+
+      }
+      .carousel img {
+
+      }
+      .carousel-caption {
+        width: 100  %;
+        padding: 0 30px;
+        margin-top: 20px;        
+      }
+      .carousel-caption sup{
+        font-size: 14px;
+        vertical-align: middle; 
+      }
+
+      .carousel-caption h1 {
+        font-size: 35px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+
+      }
+      .marketing p{
+        margin-left: 20px;
+        margin-right: 30px;
+      }
+
+      .footer{
+        width:80%;
+        margin-top: 10px;
+        padding: 10px;
+      }
+
+
+    }
+
+
+    ​
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+      <![endif]-->
+
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/thumb_144.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/thumb_114.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/thumb_72.png">
+      <link rel="apple-touch-icon-precomposed" href="images/thumb_144.png">
+      <link rel="shortcut icon" href="images/thumb_144.png">
+      <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+
+      <body>
+
+       <div class="preload">
+        <div class="progress progress-danger progress-striped active" style="width:100%; margin: 0 auto;" >
+
+          <div class="bar" style="width:0%">Laddar..</div>
+        </div>
+
+      </div>
+
+      <div class="content">
+
+        <div id="myCarousel" class="carousel slide ">
+          <div class="carousel-inner">
+            <div class="item">
+              <img src="images/slide-01.jpg" alt="">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>It's Simple.</h1>
+                  <br/>
+                  <p class="lead">Du väljer den datatrafik du vill vaska.<br/>
+                    Efter det genererar vi datatrafik på din dator/mobil/surfplatta. 
+                  </p>
+                  <br/>
+                  <a class="lead btn btn-large btn-info" href="#myCarousel" data-slide="next">Okej, då vet jag!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item active text">
+              <img src="images/bus.jpg" alt=""/>
+
+              <div class="container " >
+
+                <div class="carousel-caption">
+
+                  <h1>Vasktrafik.se<sup>BETA</sup></h1>
+                  <br/>
+
+                  <p class="lead">
+                    Trött på att vaska pengar? <br/>Börja vaska dina MB istället!
+
+                  </p>
+
+
+                  <p>
+                    <a class="lead btn btn-large btn-success" href="#myCarousel" data-slide="next">Nu kör vi!</a>
+                    <a class="lead btn btn-large btn-info" href="#myCarousel" data-slide="prev">Hur fungerar det?</a>
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+            <div class="item">
+              <img src="images/train.jpg" alt="">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Hur mycket?</h1>
+                  <p class="lead">Välj en datamängd</p>
+                  <p><a class="btn btn-large btn-block btn-success" id="10MB" href="#myCarousel" data-slide="next">Småstadsvask (10 Mb)</a></p>
+
+                  <p><a class="btn btn-large btn-block btn-warning" id="250MB" href="#myCarousel" data-slide="next">Avenynsvask (250 Mb)</a></p>
+
+                  <p><a class="btn btn-large btn-block btn-danger" id="500MB" href="#myCarousel" data-slide="next">Stureplansvask (500 Mb)</a></p>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/dog.jpg" alt="">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 id="vaskStyle" style="left:-50px !important;" class="text-center">Vaskar</h1>
+                  <br/>
+
+                  <p class="text-center" id="progressStatusField">0 av 100 MB..</p>
+                  <br/>
+                  <div class="progress progress-danger progress-striped active">
+
+                    <div class="bar" id="progressBar" style="width: 0%; padding-top: 5px;"></div>
+                  </div>
+
+                  <p>
+                    <a class="btn btn-large btn-block btn-danger" id="avbrytVask" href="#myCarousel" data-slide-to="2">Avbryt</a>
+                    <a class="btn btn-large btn-block btn-success" id="skamsButton">Nej, jag skäms.</a>
+                  </p>
+                  <br>
+                  <p class="text-right" id="muteButton">MUTE</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/slide-03.jpg" alt="">
+              <div class="container">
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/slide-01.jpg" alt="">
+              <div class="container">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="lowerContainer">
+
+          <div class="container marketing" >
+            
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+              <div class="span4">
+
+                <h1 id="totalMB">0</h1> 
+                <h2>Vaskat</h2>
+                <h4 id="totalUsers">0</h4> 
+                 <p>Med detta skulle man kunna ladda en iPhone <strong id="wattIphone"></strong> gånger eller åka <strong id="wattCar"></strong> km med en elbil.
+                </p>
+
+              </div>
+
+              <a id="info"></a>
+              <div class="span4">
+
+
+                <h1 id="wattHour"></h1>
+                <h2>Wattimmar</h2>
+               
+                <p><strong>OBS:</strong> En MB motsvarar ca. 5.9 Wh, dock är detta ett "Worst-case scenario" där all utrustning, som servar och dylikt inte är optimerade för stromsnålt användande. Skulle man däremot använda sig utav <a href="http://en.wikipedia.org/wiki/Virtual_hosting_service" target="_blank">virtuella servar</a> skulle förbrukningen kunna pressas ner till endast 1.9Wh!</P>
+                  <p>Källor: <a href="http://www.androidauthority.com/iphone-5-vs-galaxy-s3-how-much-does-cost-charge-them-118866/" target="_blank">1 </a>
+                    <a href="http://www.katescomment.com/energy-of-downloads/" target="_blank">2</a>
+                  </p>
+
+                </div>
+
+                <div class="span4">
+
+
+                  <h1>Varför?</h1>
+                  <h2>Upplysning</h2>
+                  <p>Det började som ett internt skämt med en go göteborgare men jag insåg senare att det finns väldigt lite kunskap om datatrafikens miljöpåverkan.</p>
+                  <p> Därför hoppas jag att denna sidan ska få dig att att inse att man faktiskt kan spara in på datatrafiken också! 
+                    <p> Läs mer <a href="http://www.treehugger.com/gadgets/what-is-the-environmental-impact-of-the-internet.html" target="_blank">här </a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <audio id="sound0" preload="none">
+                <source src="sound/10.mp3" type="audio/mpeg">
+                  <source src="sound/10.ogg" type="application/ogg">
+                  </audio>
+                  <audio id="sound1" preload="none">
+                    <source src="sound/250.mp3" type="audio/mpeg">
+                      <source src="sound/250.ogg" type="application/ogg">
+                      </audio>
+                      <audio id="sound2" preload="none">
+                        <source src="sound/500.mp3" type="audio/mpeg">
+                          <source src="sound/500.ogg" type="application/ogg">
+                          </audio>
+
+
+
+
+
+
+                          <!-- FOOTER -->
+                          <footer class="footer">
+                            <p><strong>v 0.2</strong> - Nu har jag gått igenom och skrivit om hela källkoden, så nu fungerar det för Firefoxanvändare! Annars är det inga fancy funktioner, bara prestandaförbättringar. Mer kommer i v 0.3!</p>
+
+                            <p> <strong>Låtarna är lånade ifrån </strong><a href="http://www.youtube.com/watch?v=7hcXKjaR40c">Håkan Hellström</a>, <a href="http://www.youtube.com/watch?v=eJoMrFiETUc">Bröderna Djup</a> och <a href="http://www.youtube.com/watch?v=4tpeBCBtoZU">keosni391</a>. </p>
+                            <p><strong>Bugg?</strong> Kontakta gärna mig och påpeka den så ska jag försöka fixa det!<br/>
+                            © 2013 Piérre Reimertz · <a href="mailto:pierre@pierrereimertz.com" >Kontakta mig</a>  </p>
+
+                          </footer>
+                        </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-alert.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-modal.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-button.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-typeahead.js"></script>
+    <script>
+    
+
+
+    !function ($) {
+
+      $(function(){
+        var DATA_URL = 'http://reimertz.csbnet.se:3001/';
+        var POST_URL = 'http://reimertz.csbnet.se:3001/post/';
+        var IMG_50KB =  'http://www.sunet.se/images/18.5980f13b12211bd97fd80005271/Lågupplöst_Färg_Orginal.jpg';
+        var IMG_7MB =  'http://www.sunet.se/images/18.6d7c8917128274d3dd080005134/högupplöst__Färg_Orginal.jpg';
+
+
+
+        // Window Size Handler
+        // Show or hide green button on finished depending on window size
+        var skamsHandler = (function(){
+          var winWidth = $(window).width();
+          return{
+
+            windowSizeListener: function(e){
+                  if(skamsHandler.winWidth > 767){
+                    $('#skamsButton').hide();
+                  }
+                  else{
+                    $('#skamsButton').show("fast");
+                  }
+            },
+            enable: function(){
+              $(window).bind("resize",skamsHandler.windowSizeListener);
+              skamsHandler.windowSizeListener();
+            },
+            disable: function(){
+              $(window).unbind("resize");
+              $('#skamsButton').hide();
+            }
+          }
+
+          
+          }());
+          var dataFetcher = (function(){
+            var timer = null;
+            return{
+              fetchData: function(){
+                $.getJSON(DATA_URL, function(data){
+                  dataFetcher.updateData(data);
+                });
+              },
+              updateData: function (data){
+                var totalData = data.totalNrOfMB;
+                var totalUsers = data.totalUsers;
+
+                if(totalData>1000000){
+                  $("#totalMB").text(data.totalNrOfMB/10000 + ' TB'); 
+                }
+                else{
+                 $("#totalMB").text(data.totalNrOfMB/1000 + ' GB');  
+
+               }
+               $("#totalUsers").text('av ' + data.totalUsers + ' användare');
+               $("#wattHour").text(((data.totalNrOfMB*5.9)/1000).toFixed(2) + ' kWh');
+
+               $("#wattIphone").text(((data.totalNrOfMB*5.9)/9.5).toFixed(0));
+               $("#wattCar").text(((data.totalNrOfMB*5.9)/(300*1.6)).toFixed(1));
+             },
+             start: function(){
+              dataFetcher.fetchData();
+              if(!dataFetcher.timer){
+                dataFetcher.timer = setInterval(function(){dataFetcher.fetchData()}, 5000);
+              }
+            },
+            pause: function(){
+              clearInterval(timer);
+            }
+          }
+        }());
+
+
+
+  var musicHandler = (function(){
+    var muted = false;
+    var sound = 0;
+    return {
+      play: function(){
+        if(!muted){
+          $('#sound' + musicHandler.sound)[0].play();
+        };
+      },
+      pause: function(){
+        $('#sound' + musicHandler.sound)[0].pause();
+      },
+      muteClicked: function(){
+        muted = !muted;
+        if(!muted){
+          musicHandler.unmute();
+        }
+        else{
+          musicHandler.mute();
+        }
+      },
+      mute: function(){
+        $("#muteButton").text("UNMUTE");
+        musicHandler.pause();
+      },
+      unmute: function(){
+        $("#muteButton").text("MUTE");
+        musicHandler.play();
+      },
+      setSound: function(sound){
+        musicHandler.sound = sound;
+      }
+    }
+  }());
+
+  var progressBarController = (function(){
+    return{
+      init: function(){
+        $("#progressBar").width('0%').text('0%');
+        $(".progress").show("veryslow");
+      },
+      finished: function(){
+        $(".progress").hide("veryslow");
+        $("#progressStatusField").text("Det är ändå rätt mycket när allt kommer omkring!");
+      },
+      update: function(downloadedMB, targetMB){
+
+        $("#progressStatusField").text((downloadedMB).toFixed(2) + ' MB av ' +  targetMB + ' MB Nerladdat');
+        $("#progressBar").width((downloadedMB/targetMB)*100 + '%').text(((downloadedMB/targetMB)*100).toFixed(2) + '%');
+      },
+      cancel: function(){
+        $("#progressStatusField").text('');
+        $("#progressBar").width('0%').text('0%');
+      }
+    }
+  }());
+
+
+
+  var vaskController = (function(){
+    var style = '';
+    var numOfMB = 0;
+    var procent = 0;
+    return {
+      init: function(){
+
+
+        $('.progress .bar').first().css('width','100%');
+        $(".preload").fadeOut(500, function() {
+          $(".content").fadeIn(500);        
+        });
+
+        $('#myCarousel').carousel({interval: 0});
+        $('.marketing').hide();
+        skamsHandler.disable();
+      },
+      start: function(){
+
+        skamsHandler.disable();
+        dataFetcher.fetchData();
+        musicHandler.play();
+        progressBarController.init();
+
+        $("#muteButton").show();
+        $("#vaskStyle").text(vaskController.style);
+
+        if(vaskController.numOfMB<100){
+          imageDownloader.startLoop(IMG_50KB,0.05, vaskController.numOfMB);
+        }
+        else{
+         imageDownloader.startLoop(IMG_7MB, 7, vaskController.numOfMB);
+       }
+     },
+     finished: function(){
+      dataFetcher.start();
+
+      skamsHandler.enable();
+
+      progressBarController.finished();
+      resultHandler.uploadResult(vaskController.numOfMB); 
+      musicHandler.pause();
+
+      $('.marketing').show("slow");
+      $("#vaskStyle").text(vaskController.numOfMB + "MB = " + vaskController.numOfMB*5.9 + "Wh!");
+      $("#muteButton").hide();
+      $("#avbrytVask").attr('data-slide','').attr('data-slide','prev').text("En gång till!");
+    },
+    cancel: function(){
+      imageDownloader.stopLoop();
+      dataFetcher.start();
+
+      musicHandler.pause();
+      this.umOfMB = 10;
+      this.numOfMBLeft = 10;
+      this.procent = 100;
+      $('.marketing').show("slow");
+      $("#progressBar").width(0 + '%');
+    },
+    setSize: function(size){
+      this.numOfMB = size;
+    },
+    setStyleTitle: function(text){
+      this.style = text;
+    }
+  }
+}());
+
+  var resultHandler = (function(){
+    return{
+      uploadResult: function(numOfMB){
+          $.ajax({
+            type: "POST",
+            url: POST_URL,
+                    data: { mb : numOfMB },
+                    dataType: "json",
+                    success: function(data){alert(data);},
+                  });
+        }
+      }
+    
+  }());
+
+
+          //BUTTON LISTENERS//////////////////////
+
+          $("#skamsButton").click(function() {
+    
+
+
+            $('html, body').animate({
+              scrollTop: $("#info").offset().top
+            }, 1000);
+          });
+          $("#muteButton").click(function() {
+            musicHandler.muteClicked();
+          });
+
+          $("#10MB").click(function() {
+            vaskController.setSize(10);
+            vaskController.setStyleTitle("Småstadsvaskar");
+            musicHandler.setSound(0);
+            vaskController.start();
+            
+          });
+
+          $("#250MB").click(function() {
+            vaskController.setSize(250);
+            vaskController.setStyleTitle("Avenynsvaskar");
+            musicHandler.setSound(1);
+            vaskController.start();
+            
+          });
+          $("#500MB").click(function() {
+            vaskController.setSize(500);
+            vaskController.setStyleTitle("Stureplansvaskar");
+            musicHandler.setSound(2);
+            vaskController.start();
+          });
+
+
+          $("#avbrytVask").click(function() {
+            vaskController.cancel();
+
+          });
+
+          var imageDownloader = (function(){
+            var imageURL = '';
+            var imgSize = 0;
+            var run = false;
+            var targetMB = 0;
+            var downloadedMB = 0;
+            
+            return{
+              startLoop: function(url,imgSize, targetMB){
+                imageDownloader.run = true;
+                imageDownloader.imageURL = url + '?';
+                imageDownloader.downloadedMB = 0;
+                imageDownloader.imgSize = imgSize;
+                imageDownloader.targetMB = targetMB;
+
+                progressBarController.update(0 , targetMB);
+
+                imageDownloader.loop();
+              },
+              loop: function(){
+                if(imageDownloader.run){
+                var tempIMG = $("<img/>").attr('src', imageDownloader.imageURL + Math.random()*Math.random()).load(function() {
+
+                  if(imageDownloader.downloadedMB < imageDownloader.targetMB){
+                    imageDownloader.downloadedMB += imageDownloader.imgSize; 
+                    progressBarController.update(imageDownloader.downloadedMB , imageDownloader.targetMB);
+                    $("<image />").remove();
+                    delete tempIMG;
+                    imageDownloader.loop();
+                  }
+                  else{
+                    vaskController.finished();
+                    vaskController.run = false;
+                  }
+                })
+                }  
+              },
+              stopLoop: function(){
+                imageDownloader.run = false;
+              }
+            }        
+
+          }());
+
+
+
+  vaskController.init();
+
+});
+}(window.jQuery);
+</script>
+<script src="js/holder.js"></script>
+
+
+</body></html>
